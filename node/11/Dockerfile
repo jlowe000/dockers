@@ -1,4 +1,4 @@
-FROM node:11-alpine
+FROM arm64v8/node:11-alpine
 
 RUN deluser --remove-home node \
   && addgroup -S node -g 1001 \

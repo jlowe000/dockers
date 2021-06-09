@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM arm64v8/alpine:edge
 
 RUN apk update && apk upgrade \
   && apk add ca-certificates \
